@@ -1,0 +1,53 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+.sidebar__title {
+  align-self: center;
+  font-size: 24px;
+}
+
+.sidebar__input {
+  margin-bottom: 15px !important;
+}
+
+.sidebar__item {
+  margin-bottom: 5px;
+}
+
+.sidebar__item:last-child {
+  margin-bottom: 0px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 100px;
+  padding: 5px;
+  border: 1px solid;
+  background-size: cover;
+  background-position: center;
+}
+
+.item__name {
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba($color: #fff, $alpha: 0.8);
+}
+
+.item__currencies {
+  padding: 3px;
+  border-radius: 7px;
+  background-color: rgba($color: #fff, $alpha: 0.8);
+}
